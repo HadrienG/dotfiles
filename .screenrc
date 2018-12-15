@@ -1,0 +1,7 @@
+shell bash
+caption always "%w"
+caption always "%{-b ..}%-w%{+b ..}[%n%f*%t]%{-}%+w"
+hardstatus string "screen %n (%t)%? [%h]%?"
+
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{=kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B}%Y-%m-%d %{W}%c %{g}]'
